@@ -1,0 +1,257 @@
+body{
+	background-image: url("../images/background.png");
+	color: #999;
+}
+
+body div{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	
+}
+
+#nav-bar{
+	background-color: white;
+	padding-left:15%; 
+	padding-right: 15%;
+}
+
+
+#nav-bar{
+	border-bottom: 2px solid #cccccc;
+}
+
+.menu{
+	width: 970px;
+}
+
+.menu-sel{
+	color: #999;
+	display: block;
+	float: right;
+	text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu-sel div{
+	padding-left: 10px;
+	padding-right: 10px; 
+}
+
+.dush div{
+	border-left: 2px solid #cccccc;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+a:hover{
+	font-size: 25px;
+}
+
+#name{
+	float: left;
+	color: white;
+	background-color: #4fa59f;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 30px;
+}
+
+#article{
+	padding-top: 40px;
+	padding-left:15%;
+	padding-right: 15%;
+	font-size: 20px;
+	margin-bottom: 150px;
+	overflow: hidden;
+}
+
+.blocks{
+	display: block;
+	float: left;
+	border: 1px solid #dddddd;
+}
+
+.sosial-link-block{
+	width: 70px;
+	height: 70px;
+	margin: 3px;
+	border: transparent;
+}
+
+#sosial img{
+	width: 70px;
+	height: 70px;
+}
+
+#sosial{
+	margin-top: 20px;
+}
+
+#about{
+	width: 610px;
+	background-color: white;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+#about header{
+	font-weight: bold;
+	font-size: 30px;
+	color: #4fa59f;
+	border-bottom: 3px solid #cccccc;
+	padding-bottom: 20px;
+}
+
+#connect{
+	margin-left: 20px;
+	width: 230px;
+	background-color: white;
+	padding: 20px;
+}
+
+#sosial img:hover{
+	width: 75px;
+	height: 75px;
+}
+
+#connect header{
+	font-weight: bold;
+	font-size: 20px;
+	color: #4fa59f;
+	border-bottom: 2px solid #e8e8e8;
+	padding-bottom: 20px;
+}
+
+#content{
+	margin: 25px 0px 15px 0px;
+}
+
+#avatar{
+	float: left;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	width: 200px;
+	height: 200px;
+} 
+
+#addition{
+	padding-top: 20px;
+}
+
+#content p{
+	line-height: 40px;
+	margin-top: 0px;
+}
+
+body div{
+	position: relative;
+}
+
+#footer{
+	position: fixed;
+	bottom: 0;
+	color: white;
+	width: 100%;
+	border-top: 7px solid #4aaaa5;
+	text-align: center;
+	background-color: #666666;
+	padding: 30px;
+	clear: both;
+}
+
+/*            Contact Page                            */
+
+form label {
+	font-weight: bold;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4fa59f;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=text]:focus {
+    border: 1px solid #ccc;
+}
+
+textarea{
+	width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px 0;
+    font-size: 16px;
+    resize: none;
+}
+
+/*         portfolio                   */
+
+.image-left{
+	position: relative;
+	float: left;
+	margin-bottom: 40px;
+	width: 280px;
+	height: 200px;
+}
+
+.right-spacing{
+	margin-right: 50px;
+}
+
+.portfolio-tag{
+	color: white;
+	position: absolute;
+	top:150px;
+	width: 280px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background: #4fa59f;
+}
+
+#portfolio-car1{
+	background: url(../images/car1.jpg);
+	background-size: 100%;
+}#portfolio-car2{
+	background: url(../images/car2.jpg);
+	background-size: 100%;
+}#portfolio-car3{
+	background: url(../images/car3.jpg);
+	background-size: 100%;
+}#portfolio-car4{
+	background: url(../images/car4.jpg);
+	background-size: 100%;
+}#portfolio-car5{
+	background: url(../images/car5.jpg);
+	background-size: 100%;
+}
